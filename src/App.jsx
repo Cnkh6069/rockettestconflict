@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import generateRandomNumber from "./randomNum";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,18 +26,11 @@ function App() {
       </div>
       <h1>Git Workflow Collaboration</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 5)}>
-          count is {count}
+        <button onClick={() => setCount(generateRandomNumber(1, 100))}>
+          random number is {count}
         </button>
-        <p>
-          This is an example of a React application using Vite with Git
-          Workflow.
-        </p>
+        <p>The above is a random number generator.</p>
       </div>
-      <p className="read-the-docs">
-        WX made somemore edits yet again blahblahblah
-      </p>
-      <button className="click-btn">Click Me!</button>
     </>
   );
 }
