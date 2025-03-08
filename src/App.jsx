@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1>Git Workflow Collaboration</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 5)}>
           count is {count}
         </button>
         <p>
@@ -26,6 +26,9 @@ function App() {
           Workflow.
         </p>
       </div>
+      <p className="read-the-docs">
+        WX made some edits blahblahblahblahblahblahblah
+      </p>
     </>
   );
 }
