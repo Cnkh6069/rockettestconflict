@@ -29,6 +29,7 @@ function App() {
       <p className="read-the-docs">
         WX made some edits blahblahblahblahblahblahblah
       </p>
+      <button className="click-btn">Click Me!</button>
     </>
   );
 }
