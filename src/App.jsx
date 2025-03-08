@@ -12,6 +12,13 @@ function App() {
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
+        <a>
+          <img
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt7286456%2F&psig=AOvVaw2_VWAiP4Azyefhl04X7isW&ust=1741490272532000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjDyP3C-YsDFQAAAAAdAAAAABAE"
+            className="logo react"
+            alt="React logo"
+          />
+        </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
