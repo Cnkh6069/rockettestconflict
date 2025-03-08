@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar";
 =======
 >>>>>>> 40fabc5 (create randomnum function)
 
+import Navbar from "./components/Navbar";
+
 function App() {
   const [count, setCount] = useState(0);
 
