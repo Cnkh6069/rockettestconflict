@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import generateRandomNumber from "./randomNum";
 
+import Navbar from "./components/Navbar";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -31,6 +33,11 @@ function App() {
         </button>
         <p>The above is a random number generator.</p>
       </div>
+      <p className="read-the-docs">
+        WX made somemore edits yet again blahblahblah
+      </p>
+      <button className="click-btn">Click Me!</button>
+      <Navbar />
     </>
   );
 }
