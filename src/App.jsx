@@ -34,7 +34,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        WX made some edits blahblahblahblahblahblahblah
+        WX made somemore edits yet again blahblahblah
       </p>
     </>
   );
