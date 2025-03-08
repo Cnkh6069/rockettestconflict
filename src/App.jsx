@@ -3,7 +3,6 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import generateRandomNumber from "./randomNum";
-
 import Navbar from "./components/Navbar";
 
 function App() {
