@@ -3,8 +3,11 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import generateRandomNumber from "./randomNum";
+<<<<<<< HEAD
 
 import Navbar from "./components/Navbar";
+=======
+>>>>>>> 40fabc5 (create randomnum function)
 
 function App() {
   const [count, setCount] = useState(0);
