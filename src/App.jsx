@@ -14,7 +14,7 @@ function App() {
         </a>
         <a>
           <img
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt7286456%2F&psig=AOvVaw2_VWAiP4Azyefhl04X7isW&ust=1741490272532000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjDyP3C-YsDFQAAAAAdAAAAABAE"
+            src="https://cdn.europosters.eu/image/750/canvas-print-joker-three-jokers-i121285.jpg"
             className="logo react"
             alt="React logo"
           />
