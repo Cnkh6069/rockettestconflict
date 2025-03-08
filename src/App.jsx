@@ -33,9 +33,7 @@ function App() {
           Workflow.
         </p>
       </div>
-      <p className="read-the-docs">
-        WX made some edits blahblahblahblahblahblahblah
-      </p>
+      <p className="read-the-docs">WX made somemore edits blahblahblah</p>
     </>
   );
 }
